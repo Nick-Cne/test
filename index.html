@@ -4,55 +4,194 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="祥雲旅遊網">
-    <meta name="description" content="網頁內容的簡介">
+    <meta name="description" content="祥雲旅遊網,鹿港老街,淡水歷史美景,台灣最具規模的祖廟">
     <meta name="generator" content="Visual Studio Code">
-    <meta name="keywords" content="網頁內容中的重要文字，希望成為關鍵字">
+    <meta name="keywords" content="祥雲旅遊,國內旅遊,住宿,景點">
     <!-- favicon我的最愛圖標 -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <title>祥雲旅遊網-首頁</title>
-    <!-- 雲端壓縮版css -->
+    <!-- 雲端壓縮版CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+    <!-- iconfonts圖示 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <!-- GA追蹤分析 -->
-  <body>
-    <!-- 導覽列 -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
-      <div class="container-fluid">
-        <!-- 品牌名稱，超連結回到首頁 -->
-        <a class="navbar-brand" href="index.html">祥雲旅遊網</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">關於品牌</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="viewpoint.html">景點介紹</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hotel.html">住宿資訊</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="safe.html">旅遊安全</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">留言發問</a>
-            </li>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ5PG73NJ2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    gtag('config', 'G-PJ5PG73NJ2');
+  </script>
+  <body>
+    <header>
+      <!-- 導覽列 -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <!-- 品牌名稱，超連結回到首頁 -->
+            <a class="navbar-brand" href="index.html">祥雲旅遊網</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">關於品牌</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="viewpoint.html">景點介紹</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hotel.html">住宿資訊</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="safe.html">旅遊安全</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-154992.url.tw" target="_blank">留言發問</a>
+                </li>
+
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+      </nav>
+    </header> 
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/hong-kong-1990268_1920-ok.webp" class="d-block w-100" alt="高雄市街道" title="高雄市街道" aria-label="高雄市街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/mountains-1587287_1920-ok.webp" class="d-block w-100" alt="湖邊獨木屋" title="湖邊獨木屋" aria-label="湖邊獨木屋">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/mount-fuji-2779020_1920-ok.webp" class="d-block w-100" alt="富士山雪景" title="富士山雪景" aria-label="富士山雪景">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav> 
-    <!-- 雲端壓縮版js(完整版) -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 order-md-1 mt-5">
+            <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001113&id=C100_441" target="_blank"><img src="images/index/pic.jfif1.webp" class="rounded-circle w-100" alt="鹿港老街" title="鹿港老街" aria-label="鹿港老街"></a>
+            <div class="card-body">
+              <h2 class="card-title text-primary-emphasis my-2">鹿港老街</h2>
+              <p class="card-text">鹿港老街有很多的在地文化讓我來分享給大家，今天很高興跟大家分享鹿港老街的古蹟文化<i class="material-icons" style="font-size:20px;color: darkcyan;vertical-align: text-top;">location_city</i>。
+                鹿港老街位於彰化縣鹿港鎮，是台灣現存最完整、最具代表性的古蹟街區之一。老街始建於清朝康熙年間，當時鹿港是台灣重要的海港貿易城市，商賈雲集，街道繁華。老街的建築風格融合了閩南、客家、洋式等多種元素，形成了獨特的風貌。<br>
+                老街內有許多歷史悠久的古蹟，其中最著名的有：
+                鹿港天后宮：建於清朝康熙年間，是台灣最具代表性的媽祖廟之一。
+                龍山寺：建於清朝乾隆年間，是台灣現存最完整的清代寺廟。
+                新祖宮：建於清朝嘉慶年間，是台灣最具規模的祖廟。
+                鹿港公會堂：建於日治時期，是台灣現存最完整的日式公會堂。<br>
+                除了古蹟之外，老街上還有許多傳統商店和小吃攤，讓遊客可以體驗鹿港的傳統文化。</p>
+              <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001113&id=C100_441" target="_blank" class="btn btn-primary" role="button">鹿港老街官網</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-0 mt-5">
+            <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=19" target="_blank"><img src="images/index/擷取.PNG2.webp" class="rounded-circle w-100" alt="淡水歷史美景" title="淡水歷史美景" aria-label="淡水歷史美景"></a>
+            <div class="card-body">
+              <h2 class="card-title text-primary-emphasis my-2">淡水歷史美景</h2>
+              <p class="card-text">淡水是位於台灣新北市淡水區的一個海濱城市，因其獨特的自然景觀和豐富的歷史文化而聞名。
+                淡水的文化進程可以追溯到史前時期<i class="material-icons" style="font-size:20px;color: deeppink;vertical-align: text-top;">notifications_active</i>，當時已有人類在此定居。，並開始發展成為一個重要的商業和文化中心。在清朝統治時期，淡水繼續保持其重要地位，並成為台灣北部的政治、經濟和文化中心。
+                在日本統治時期，淡水的文化受到了日本的影響，但也保留了許多傳統的台灣文化。在中華民國政府遷台後，淡水繼續發展成為一個重要的文化中心，並吸引了來自世界各地的遊客。</p><p>淡水的觀光景點眾多，其中最著名的有：
+                  淡水老街：淡水最著名的景點之一，是台灣最早的街道之一。老街兩旁林立著商店、餐廳和小吃攤販，是品嚐台灣美食的好地方。
+                  淡水紅毛城：一座建於荷蘭統治時期的古堡，是台灣最具代表性的歷史建築之一。
+                  淡水天后宮：一座建於清朝乾隆年間的媽祖廟，是台灣最著名的媽祖廟之一。
+                  淡水海關碼頭：一座建於清朝同治年間的碼頭，是台灣最早的海關碼頭之一。
+                  淡水夕陽：淡水的夕陽是台灣最美麗的夕陽之一，吸引了來自世界各地的遊客。
+                  淡水是台灣一個充滿歷史文化魅力的城市，值得一遊。</p>
+              <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=19" class="btn btn-primary" target="_blank" role="button">淡水歷史美景</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-2 mt-5">
+            <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=R119" target="_blank"><img src="images/index/擷取.PNG3.webp" class="rounded-circle w-100" alt="高雄市歷史" title="高雄市歷史" aria-label="高雄市歷史"></a>
+          <div class="card-body">
+            <h2 class="card-title text-primary-emphasis my-2">高雄市歷史</h2>
+            <p class="card-text">高雄市位於台灣西南部，為台灣第二大城市，也是南台灣的核心城市。高雄市的歷史可追溯至明朝，當時稱為「打狗」，清朝時期稱為「鳳山縣」。
+              高雄市在日治時期發展迅速，成為重要的港口城市。1908年，日本政府開始興建高雄港，將其打造為現代化港口。高雄港的發展帶動了高雄市的經濟發展，吸引了大量人口移入，高雄市也逐漸成為台灣重要的工業中心。
+              戰後，高雄市繼續發展，成為台灣第二大城市。1979年，高雄市升格為直轄市。高雄市在近年來也積極推動產業轉型，發展綠能、文化等產業。
+              高雄市歷史進程可分為以下幾個階段：
+              明清時期（16世紀-1895年）：高雄市原名「打狗」，為平埔族馬卡道族的居住地。清朝時期，高雄市被劃入鳳山縣。
+              日治時期（1895-1945年）：高雄市發展迅速，成為重要的港口城市。高雄港的建設帶動了高雄市的經濟發展，吸引了大量人口移入。
+              戰後時期（1945-至今）：高雄市繼續發展，成為台灣第二大城市。高雄市在近年來也積極推動產業轉型。
+              高雄市擁有豐富的歷史文化資源，包括打狗英國領事館、高雄市立歷史博物館、駁二藝術特區等。高雄市也是台灣重要的經濟、文化、交通中心，是台灣發展的重要引擎。</p>
+            <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=R119" class="btn btn-primary" target="_blank" role="button">高雄市歷史</a></p>
+        </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2 class="text-primary-emphasis">連假旅遊注意事項<span class="text-muted"></span></h2>
+            <p class="lead">連假旅遊是許多人放鬆身心、享受假期的最佳方式，但在出發前，務必做好以下注意事項，才能確保旅途安全、愉快：
+              **規劃行程：**提前規劃好行程，包括景點、交通、住宿等，以免出發當天手忙腳亂。
+              **注意天氣：**出發前注意天氣預報，做好防曬、防雨等準備。
+              **做好交通安排：**連假期間交通流量大，建議提早出門、避開尖峰時段，或搭乘大眾運輸工具。
+              **攜帶必要物品：**包括證件、現金、信用卡、藥品、雨具、防曬用品、充電器等。
+              **注意飲食衛生：**外出用餐應選擇衛生可靠的餐廳，並注意飲用生水。
+              **做好防曬：**連假期間太陽強烈，務必做好防曬措施，避免曬傷。
+              **注意安全：**在景點、戶外活動時，注意安全，避免意外發生。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/traffic-332857_1920-2ok.webp" alt="連假旅遊注意事項" aria-label="連假旅遊注意事項" class="img-fluid mx-auto" title="連假旅遊注意事項">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7 order-md-1">
+            <h2 class="text-primary-emphasis">中央氣象局<span class="text-muted"></span></h2>
+            <p class="lead">中央氣象局的連假旅遊預報，是針對即將到來的連續假期，提供民眾出遊前的天氣資訊。預報內容包括各地的天氣概況、降雨機率、溫度變化等，以及可能影響出遊的其他因素，例如紫斑蝶遷移、海上風浪等。
+              民眾可以透過氣象局官網、APP或電視新聞等管道，查詢連假旅遊預報。預報資訊可以幫助民眾更妥善規劃出遊行程，避免因天候不佳而影響出遊興致。</p>
+          </div>
+          <div class="col-md-5 order-md-0">
+            <img src="images/index/skyscrapers-5838029_1920-3ok.webp" alt="中央氣象局" aria-label="中央氣象局" class="img-fluid mx-auto" title="中央氣象局">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2 class="text-primary-emphasis">交通部觀光局<span class="text-muted"></span></h2>
+            <p class="lead">觀光局致力於推動臺灣觀光產業的發展，讓臺灣成為世界知名的觀光目的地。觀光局近年來積極推動「2025年觀光客突破2,000萬人次」的目標，並以「智慧、友善、體驗」為觀光發展主軸。觀光局的業務範圍包括：
+              觀光政策規劃
+              觀光資源調查、開發及管理
+              觀光局的業務對臺灣的經濟發展和國際形象具有重要的影響。觀光局的努力，讓臺灣成為一個充滿自然美景、人文風情和多元文化的觀光勝地，吸引了來自世界各地的遊客。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/888.PNG2.jpg" alt="交通部觀光局" aria-label="交通部觀光局" class="img-fluid mx-auto" title="交通部觀光局">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>祥雲旅遊網 &copy; 2024</p>
+      </footer>
+    </main>   
+    <!-- 雲端壓縮版JS(完整版) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
