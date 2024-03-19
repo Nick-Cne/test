@@ -1,0 +1,7 @@
+:root,
+[data-bs-theme=dark] {--bs-dark-rgb: 0, 0, 255;}
+
+html {font-size: 20px;}    
+
+li {font-size: 0.8rem;}
+
